@@ -7,7 +7,7 @@ public class Praktikum {
         System.out.println("Введите год:");
         int year = scanner.nextInt();
 
-        if (isLeapYear(year)) {
+        if (!isLeapYear(year)) {
             System.out.println("12.09." + year);
         } else {
             System.out.println("13.09." + year);
